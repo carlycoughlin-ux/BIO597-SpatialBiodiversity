@@ -1,0 +1,53 @@
+[project]
+site_name = "BIO 597 Spatial Analysis of Biodiversity"
+site_url = "https://isaacovercast.github.io/BIO597-SpatialBiodiversity/"
+site_description = "Course website for BIO 597 Spatial Analysis of Biodiversity."
+site_author = "Isaac Overcast"
+docs_dir = "docs"
+site_dir = "site"
+copyright = "Copyright &copy; 2026 Isaac Overcast"
+
+nav = [
+  {"Home" = "index.md"},
+  {"Syllabus" = "syllabus.md"},
+  {"Schedule" = [
+    {"Overview" = "schedule/index.md"},
+    {"Week 1" = "schedule/week-01.md"},
+    {"Week 2" = "schedule/week-02.md"},
+    {"Week 3" = "schedule/week-03.md"},
+    {"Week 4" = "schedule/week-04.md"},
+    {"Week 5" = "schedule/week-05.md"},
+    {"Week 6" = "schedule/week-06.md"},
+    {"Week 7" = "schedule/week-07.md"},
+    {"Week 8" = "schedule/week-08.md"},
+    {"Week 9" = "schedule/week-09.md"},
+    {"Week 10" = "schedule/week-10.md"}
+  ]},
+  {"Assignments" = "assignments.md"},
+  {"Software and Data" = "software-data.md"},
+  {"Resources" = "resources.md"}
+]
+
+[project.theme]
+variant = "modern"
+features = [
+  "navigation.instant",
+  "navigation.indexes",
+  "toc.follow"
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "green"
+accent = "teal"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "green"
+accent = "teal"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
