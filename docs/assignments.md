@@ -21,6 +21,13 @@ The final project asks students to complete a spatial biodiversity analysis from
 5. Model comparison or analysis checkpoint.
 6. Final report and presentation.
 
+## Final Project Structure
+- A GitHub repository with notebooks containing analysis code
+- One clean Jupyter notebook
+- A 5–8 page scientific report
+- A 10-minute presentation
+- A README explaining how to reproduce the analysis
+
 ## Final Report Template
 
 - Research question and ecological motivation.

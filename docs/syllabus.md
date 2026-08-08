@@ -15,22 +15,25 @@ An advanced survey of tools for modeling and analysis of spatial patterns of bio
 
 By the end of the course, students should be able to:
 
-- Acquire, clean, and document spatial biodiversity datasets.
-- Diagnose spatial sampling bias and data quality problems.
-- Work reproducibly with vector, raster, and occurrence data.
+- Work with geographic coordinates and spatial biodiversity datasets.
+- Use vector and raster geospatial data in Python.
+- Acquire and clean biodiversity and environmental data.
 - Compute and interpret biodiversity, endemism, and phylogenetic diversity metrics.
-- Fit, evaluate, and communicate species distribution models.
-- Use environmental predictors responsibly across spatial scales.
-- Analyze landscape connectivity and conservation prioritization scenarios.
-- Produce a final spatial biodiversity analysis with transparent assumptions.
+- Perform spatial joins, overlays, buffering, distance calculations, and spatial sampling.
+- Analyze spatial patterns of species distributions and biodiversity.
+- Quantify environmental niches and species–environment relationships.
+- Account for spatial autocorrelation and spatial sampling bias.
+- Perform spatial interpolation and prediction.
+- Analyze community composition across space.
+- Build reproducible spatial workflows and communicate spatial results.
 
 ## Assessment Skeleton
 
-- Participation and discussion leadership: 15%
-- Weekly applied exercises: 30%
-- Reading responses or short critiques: 15%
-- Final project proposal and progress check: 10%
-- Final project report and presentation: 30%
+Weekly applied exercises: 30%
+Short spatial-analysis exercises: 15%
+Project proposal and progress check (midterm): 15%
+Final project: 30%
+Participation/discussion: 10%
 
 ## Course Policies
 
