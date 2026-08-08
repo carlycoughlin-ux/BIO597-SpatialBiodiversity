@@ -1,21 +1,31 @@
-# Week 10: Synthesis and Communication
+# Week 10: Spatial Interpolation and Prediction
 
 ## Core Questions
 
-- How should spatial biodiversity analyses communicate uncertainty and decision relevance?
-- What makes a final map, model, or report convincing?
+- What is the difference between interpolation and extrapolation?
+- How can spatial prediction fill gaps between sampled locations?
+- How should prediction uncertainty be interpreted?
 
-## Topics
+## Concepts
 
-- Effective maps and figure design.
-- Reproducible reporting and transparent methods.
-- Interpreting uncertainty, limitations, and sensitivity analyses.
-- Student presentations and peer feedback.
+- Spatial prediction.
+- Interpolation versus extrapolation.
+- Nearest-neighbor prediction.
+- Inverse distance weighting.
+- Kriging concepts.
+- Gaussian processes.
+- Prediction uncertainty.
+
+## Python Tools
+
+- scipy.
+- scikit-learn.
+- optionally gstools.
 
 ## Applied Lab
 
-Finalize project reports, maps, and presentations. Conduct peer review of figures and interpretation.
+Students hide observations from a spatial dataset and reconstruct an environmental or ecological surface using multiple interpolation or prediction methods.
 
 ## Deliverable
 
-Submit the final project report, reproducible analysis materials, and presentation slides.
+Submit a prediction comparison showing observed points, predicted surfaces, held-out error, and uncertainty or limitations.

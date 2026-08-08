@@ -1,22 +1,33 @@
-# Week 1: Spatial Biodiversity Questions and Workflows
+# Week 1: Spatial Thinking in Biodiversity Science
 
 ## Core Questions
 
-- What makes a biodiversity question spatial?
-- How do scale, extent, grain, and sampling design shape inference?
+- Why does geography matter in ecology and evolution?
+- How do spatial scale, extent, and grain shape biodiversity inference?
+- What is the difference between spatial and non-spatial data?
 - What does a reproducible spatial biodiversity workflow require?
 
-## Topics
+## Concepts
 
-- Course overview and final project expectations.
-- Spatial biodiversity as pattern, process, and prediction.
-- Reproducible folders, metadata, scripts, notebooks, and version control.
-- Examples of biodiversity maps that support or obscure ecological inference.
+- Spatial scales and extent.
+- Spatial grain versus extent.
+- Point, polygon, and raster representations.
+- Geographic coordinates.
+- Spatial versus non-spatial data.
+- Reproducible computational workflows.
+
+## Python Tools
+
+- Jupyter.
+- NumPy.
+- pandas.
+- GeoPandas.
+- matplotlib.
 
 ## Applied Lab
 
-Set up the analysis environment and create a reproducible project template with raw data, processed data, scripts, outputs, and documentation.
+Start with a simple dataset containing species, latitude, longitude, elevation, and site. Students create a basic map, species-specific maps, sampling-density maps, histograms of latitude and elevation, and a species-by-site matrix.
 
 ## Deliverable
 
-Submit a one-page project idea memo with a candidate study system, spatial question, possible response data, and possible environmental predictors.
+Submit a reproducible notebook with the first biodiversity maps and a short project idea memo identifying a candidate study system, spatial question, response data, and possible environmental predictors.

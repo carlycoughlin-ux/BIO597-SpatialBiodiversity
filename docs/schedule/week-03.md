@@ -1,21 +1,29 @@
-# Week 3: Occurrence Data and Sampling Bias
+# Week 3: Vector Spatial Analysis
 
 ## Core Questions
 
-- What can go wrong when using species occurrence records?
-- How can spatial sampling bias be diagnosed and reduced?
+- How can vector operations answer ecological and conservation questions?
+- Which observations fall inside protected areas, watersheds, or habitat polygons?
+- How do buffers, intersections, and spatial joins change the unit of analysis?
 
-## Topics
+## Concepts
 
-- Museum, herbarium, citizen science, and survey data.
-- Taxonomic cleaning and coordinate validation.
-- Duplicate records, uncertainty radii, temporal filtering, and spatial thinning.
-- Background, pseudoabsence, and target-group sampling concepts.
+- Spatial joins.
+- Intersection, union, and difference.
+- Buffers.
+- Nearest-neighbor operations.
+- Point-in-polygon analysis.
+- Distance matrices.
+
+## Python Tools
+
+- GeoPandas.
+- Shapely.
 
 ## Applied Lab
 
-Download occurrence records, clean coordinates, flag suspicious records, map sampling density, and compare thinning or bias correction strategies.
+Using species observations, protected areas, watersheds, roads, and habitat polygons, students ask which observations occur inside protected areas, how many species occur within 500 m of a road, and which sampling locations fall within each watershed.
 
 ## Deliverable
 
-Submit a data cleaning report with maps of raw and filtered records and a clear rationale for exclusions.
+Submit a vector spatial analysis report with maps, code, and short interpretations for at least three spatial questions.

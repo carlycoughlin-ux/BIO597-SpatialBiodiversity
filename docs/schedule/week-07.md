@@ -1,21 +1,33 @@
-# Week 7: Machine Learning, Transferability, and Uncertainty
+# Week 7: Measuring Spatial Biodiversity Patterns
 
 ## Core Questions
 
-- When do flexible models improve biodiversity prediction?
-- How can we detect overfitting, extrapolation, and weak transferability?
+- What do richness, Shannon diversity, Simpson diversity, endemism, and rarity measure?
+- How do alpha, beta, and gamma diversity differ?
+- How do grid grain and spatial aggregation change biodiversity surfaces?
 
-## Topics
+## Concepts
 
-- Random forests, boosted trees, regularized models, and ensembles.
-- Spatial cross-validation and blocked resampling.
-- Variable importance and partial dependence.
-- Extrapolation, novelty, transfer, and uncertainty communication.
+- Species richness.
+- Shannon and Simpson diversity.
+- Endemism, weighted endemism, corrected weighted endemism, and rarity.
+- Alpha, beta, and gamma diversity.
+- Moving-window diversity.
+- Spatial aggregation and scale sensitivity.
+- Community genetic diversity as an advanced extension.
+
+## Python Tools
+
+- pandas.
+- NumPy.
+- GeoPandas.
+- scipy.
+- matplotlib.
 
 ## Applied Lab
 
-Compare at least two modeling approaches using spatial cross-validation and evaluate where predictions are extrapolative.
+Students aggregate species observations to a grid, calculate spatial biodiversity metrics, and create richness, diversity, endemism, and rarity maps.
 
 ## Deliverable
 
-Submit a model comparison table and a short justification for the preferred modeling approach.
+Submit biodiversity maps at multiple grains with a short interpretation of scale sensitivity and metric choice.

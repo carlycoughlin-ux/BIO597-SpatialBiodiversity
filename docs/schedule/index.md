@@ -1,60 +1,85 @@
 # Schedule
 
-This 10-week outline is organized around a final project in which each student develops a reproducible spatial biodiversity analysis.
+This 15-week outline is organized around a final project in which each student develops a reproducible spatial biodiversity analysis using Python.
 
-| Week | Topic | Applied Focus | Project Milestone |
+| Week | Topic | Main Python Tools | Example Exercise |
 | --- | --- | --- | --- |
-| [1](week-01.md) | Spatial biodiversity questions and workflows | Reproducible project setup | Choose study system ideas |
-| [2](week-02.md) | Spatial data foundations | Vector, raster, CRS, resolution, extent | Identify candidate datasets |
-| [3](week-03.md) | Occurrence data and sampling bias | Cleaning records and bias diagnostics | Draft data acquisition plan |
-| [4](week-04.md) | Environmental predictors | Climate, remote sensing, microclimate | Build predictor stack |
-| [5](week-05.md) | Biodiversity metrics | Richness, beta diversity, endemism | Define response variables |
-| [6](week-06.md) | Species distribution models | Presence-background and evaluation | Fit first model |
-| [7](week-07.md) | Machine learning and transferability | Spatial cross-validation, uncertainty | Model comparison plan |
-| [8](week-08.md) | Phylogenetic and functional diversity | Integrating tree and trait data | Add optional diversity layer |
-| [9](week-09.md) | Connectivity and conservation prioritization | Resistance, corridors, prioritization | Final analysis checkpoint |
-| [10](week-10.md) | Synthesis and communication | Maps, uncertainty, presentations | Final presentation and report |
+| [Week 1 (09/04)](week-01.md) | Spatial thinking in biodiversity science | NumPy, pandas, GeoPandas, matplotlib | Map a biodiversity dataset |
+| [Week 2 (09/11)](week-02.md) | Coordinate systems and spatial geometry | GeoPandas, pyproj, Shapely | Reproject data and measure distances |
+| [Week 3 (09/18)](week-03.md) | Vector spatial analysis | GeoPandas, Shapely | Buffers, intersections, spatial joins |
+| [Week 4 (09/25)](week-04.md) | Biodiversity data acquisition and cleaning | pandas, GeoPandas, pygbif, requests | Download and clean GBIF observations |
+| [Week 5 (10/02)](week-05.md) | Raster data and environmental covariates | rasterio, rioxarray, xarray, NumPy | Extract climate, elevation, and land cover |
+| [Week 6 (10/09)](week-06.md) | Spatial sampling and sampling bias | NumPy, GeoPandas, scikit-learn, scipy | Compare raw, thinned, and stratified samples |
+| [Week 7 (10/16)](week-07.md) | Measuring spatial biodiversity patterns | pandas, NumPy, GeoPandas, scipy | Map richness, diversity, endemism, and rarity |
+| [Week 8 (10/23)](week-08.md) | Spatial autocorrelation | libpysal, esda, GeoPandas | Calculate global and local Moran's I |
+| [Week 9 (10/30)](week-09.md) | Species distribution modeling | scikit-learn, rasterio, pandas | Build and compare distribution models |
+| [Week 10 (11/06)](week-10.md) | Spatial interpolation and prediction | scipy, scikit-learn, optionally gstools | Predict an environmental or ecological surface |
+| [Week 11 (11/13)](week-11.md) | Community composition across space | pandas, scipy, scikit-learn, GeoPandas | Analyze beta diversity and distance decay |
+| [Week 12 (11/20)](week-12.md) | Ordination, gradients, and evolutionary diversity | scikit-learn, scipy, matplotlib | Compare geographic, environmental, and diversity spaces |
+| [Week 13 (12/04)](week-13.md) | Landscape connectivity and conservation prioritization | rasterio, NumPy, networkx | Build resistance and prioritization scenarios |
+| [Week 14 (12/11)](week-14.md) | Spatial machine learning and model evaluation | scikit-learn, GeoPandas, NumPy | Compare random and spatial cross-validation |
+| [Week 15 (12/18)](week-15.md) | Synthesis: biodiversity under environmental change | Full stack | Final project presentations |
 
 Each week page provides a template for learning goals, readings, lab activities, and deliverables.
 
 ## Weekly Topic Outline
 
-### Week 1: Spatial Biodiversity Questions and Workflows
+### Week 1: Spatial Thinking in Biodiversity Science
 
-The course begins with the logic of spatial biodiversity analysis: how ecological questions become spatial questions, how scale affects inference, and how reproducible workflows support defensible analysis. Students identify possible final project systems and set up their computational workspace.
+Students begin with why geography matters in ecology and evolution. They make basic maps, species-specific maps, sampling-density maps, histograms, and a species-by-site matrix from a simple biodiversity dataset.
 
-### Week 2: Spatial Data Foundations
+### Week 2: Coordinate Systems and Spatial Geometry
 
-Students work with coordinate reference systems, vector data, raster data, spatial joins, raster extraction, masking, aggregation, and the consequences of mismatched resolution or extent. The week builds the spatial data handling foundation needed for the rest of the course.
+The course introduces latitude and longitude, projected coordinate systems, datums, EPSG codes, geometry operations, and the ecological consequences of measuring distances in the wrong coordinate system.
 
-### Week 3: Occurrence Data and Sampling Bias
+### Week 3: Vector Spatial Analysis
 
-This week focuses on biodiversity observations from sources such as museums, herbaria, surveys, and citizen science platforms. Students clean species occurrence records, evaluate coordinate quality, map sampling density, and compare strategies for reducing bias.
+Students use spatial joins, buffers, intersections, nearest-neighbor operations, point-in-polygon tests, and distance matrices to answer practical spatial ecology questions.
 
-### Week 4: Environmental Predictors
+### Week 4: Biodiversity Data Acquisition and Cleaning
 
-Students assemble biologically meaningful predictor data from climate products, remote sensing, terrain, land cover, and microclimate layers. The emphasis is on ecological justification, temporal alignment, collinearity, and scale.
+Students download occurrence data, handle taxonomic and coordinate uncertainty, remove duplicates, flag impossible coordinates, and document metadata and cleaning decisions.
 
-### Week 5: Biodiversity Metrics
+### Week 5: Raster Data and Environmental Covariates
 
-The class moves from individual records to spatial biodiversity summaries, including richness, beta diversity, endemism, rarity, and scale sensitivity. Students compare maps produced at different grains and interpret how metric choice changes conclusions.
+Students learn raster concepts including cells, pixels, resolution, extent, NoData, alignment, elevation, climate, land cover, remote sensing, and microclimate. They extract environmental values at occurrence locations.
 
-### Week 6: Species Distribution Models
+### Week 6: Spatial Sampling and Sampling Bias
 
-Students fit and evaluate baseline species distribution models using presence-background or presence-absence approaches. Topics include model assumptions, background selection, prediction, thresholding, evaluation metrics, and spatially structured validation.
+Students compare random, stratified, clustered, thinned, and biased samples to see how sampling design affects richness estimates, rare species detection, and downstream models.
 
-### Week 7: Machine Learning, Transferability, and Uncertainty
+### Week 7: Measuring Spatial Biodiversity Patterns
 
-This week compares flexible modeling approaches such as random forests, boosted trees, regularized models, and ensembles. Students evaluate overfitting, extrapolation, spatial cross-validation, variable importance, and uncertainty communication.
+The course moves from GIS operations to biodiversity metrics: richness, Shannon diversity, Simpson diversity, endemism, rarity, alpha/beta/gamma diversity, moving-window diversity, and spatial aggregation.
 
-### Week 8: Phylogenetic and Functional Diversity
+### Week 8: Spatial Autocorrelation
 
-Students connect spatial biodiversity patterns to evolutionary history and traits. Topics include phylogenetic diversity, functional diversity, trait spaces, missing data, and the challenges of integrating occurrence, range, tree, and trait datasets.
+Students calculate global and local spatial autocorrelation and ask when nearby observations are more similar than expected by chance.
 
-### Week 9: Connectivity and Conservation Prioritization
+### Week 9: Species Distribution Modeling
 
-The course links biodiversity patterns to movement, dispersal, resistance surfaces, corridors, protected areas, complementarity, and scenario analysis. Students develop a final project checkpoint with core outputs and a plan for completion.
+Students model species-environment relationships using presence/absence, presence/background, pseudoabsence, logistic regression, and random forests, then compare spatial predictions.
 
-### Week 10: Synthesis and Communication
+### Week 10: Spatial Interpolation and Prediction
 
-The final week focuses on clear spatial communication: map design, uncertainty, reproducible reporting, interpretation, and project presentations. Students submit final reports, analysis materials, and presentation slides.
+Students distinguish interpolation from extrapolation, explore nearest-neighbor prediction, inverse distance weighting, kriging concepts, Gaussian processes, and prediction uncertainty.
+
+### Week 11: Community Composition Across Space
+
+The focus shifts from single-species analysis to multispecies communities using site-by-species matrices, Bray-Curtis and Jaccard dissimilarity, turnover, nestedness, and distance-decay relationships.
+
+### Week 12: Ordination, Gradients, and Evolutionary Diversity
+
+Students compare geographic space and environmental space using ordination, then connect community patterns to phylogenetic and functional diversity, trait data, missing data, and evolutionary history.
+
+### Week 13: Landscape Connectivity and Conservation Prioritization
+
+Students build resistance surfaces and graph representations of landscapes, then connect connectivity results to protected areas, complementarity, irreplaceability, and conservation prioritization.
+
+### Week 14: Spatial Machine Learning and Model Evaluation
+
+Students confront spatial leakage by comparing random train/test splits with spatial train/test splits. Topics include overfitting, spatial cross-validation, transferability, extrapolation, and model uncertainty.
+
+### Week 15: Synthesis: Biodiversity Under Environmental Change
+
+The final week pulls together biodiversity observations, spatial processing, environmental covariates, statistical and machine-learning models, spatial prediction, uncertainty, ecological interpretation, and final project presentations.

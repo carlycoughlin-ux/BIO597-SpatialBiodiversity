@@ -1,21 +1,32 @@
-# Week 9: Connectivity and Conservation Prioritization
+# Week 9: Species Distribution Modeling
 
 ## Core Questions
 
-- How can biodiversity patterns be connected to movement, dispersal, and conservation planning?
-- What assumptions define a resistance surface or prioritization model?
+- What does a species distribution model estimate?
+- How do presence/absence, presence/background, and pseudoabsence designs differ?
+- Why might logistic regression and random forests produce different suitability maps?
 
-## Topics
+## Concepts
 
-- Habitat suitability versus resistance.
-- Least-cost paths, circuit theory concepts, and corridors.
-- Protected areas, complementarity, irreplaceability, and prioritization.
-- Scenario analysis under land-use or climate change.
+- Species-environment relationships.
+- Presence/absence, presence/background, and pseudoabsence data.
+- Logistic regression.
+- Random forests.
+- Habitat suitability.
+- Prediction versus inference.
+- Model evaluation and thresholding.
+
+## Python Tools
+
+- scikit-learn.
+- rasterio or rioxarray.
+- pandas.
+- matplotlib.
 
 ## Applied Lab
 
-Create a simple resistance surface and compare alternative connectivity or prioritization scenarios.
+Students combine occurrence data, climate, elevation, and land cover covariates to fit logistic regression and random forest models, then compare predicted suitability rasters.
 
 ## Deliverable
 
-Submit a final project checkpoint with completed data, core model outputs, and the remaining analysis plan.
+Submit a first species distribution model with methods, evaluation metrics, prediction maps, and a comparison of model behavior.

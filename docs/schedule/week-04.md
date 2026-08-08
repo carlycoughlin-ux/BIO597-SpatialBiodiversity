@@ -1,21 +1,32 @@
-# Week 4: Environmental Predictors
+# Week 4: Biodiversity Data Acquisition and Cleaning
 
 ## Core Questions
 
-- Which environmental predictors are biologically meaningful for a biodiversity question?
-- How do remote sensing, climate, and microclimate products differ?
+- What can go wrong when using biodiversity occurrence records?
+- How should taxonomic, coordinate, temporal, and metadata uncertainty be documented?
+- How can bad spatial data produce convincing but wrong analyses?
 
-## Topics
+## Concepts
 
-- Climate normals, anomalies, and bioclimatic variables.
-- Remote sensing indices, land cover, productivity, and disturbance.
-- Microclimate and terrain-derived predictors.
-- Collinearity, spatial resolution, temporal alignment, and ecological interpretation.
+- GBIF and biodiversity databases.
+- Occurrence records.
+- Taxonomic uncertainty.
+- Coordinate uncertainty.
+- Duplicate observations.
+- Sampling bias.
+- Metadata.
+
+## Python Tools
+
+- pygbif.
+- requests.
+- pandas.
+- GeoPandas.
 
 ## Applied Lab
 
-Build a predictor stack, align layers to a shared grid, summarize correlations, and select a defensible subset of variables.
+Students download occurrence data for a species or taxonomic group and build a cleaning pipeline that handles missing coordinates, duplicate records, impossible coordinates, obvious spatial outliers, coordinate uncertainty, and duplicate specimens or observations.
 
 ## Deliverable
 
-Submit a predictor inventory table with source, temporal coverage, resolution, units, ecological justification, and preprocessing notes.
+Submit a data cleaning report with raw and filtered maps, a table of filtering decisions, and a short explanation of remaining uncertainty.
