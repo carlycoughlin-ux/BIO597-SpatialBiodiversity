@@ -5,7 +5,7 @@ biodiversity, including species distributions, biodiversity metrics, endemism, p
 and landscape connectivity, with emphasis on leveraging environmental drivers (e.g. remote sensing
 and microclimate data) within predictive frameworks (e.g. SDMs and machine learning models).
 
-### Local Preview
+### Technical details
 
 Install Zensical in a Python environment, then run:
 
