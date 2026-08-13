@@ -1,5 +1,10 @@
 # Week 1: Spatial Thinking in Biodiversity Science
 
+## Introductory Business
+
+- Review syllabus
+- Let's generate an acceptable use of AI policy for ourselves.
+
 ## Core Questions
 
 - Why does geography matter in ecology and evolution?
