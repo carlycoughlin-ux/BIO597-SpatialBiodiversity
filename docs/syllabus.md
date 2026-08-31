@@ -6,8 +6,8 @@
 **Term:** Fall 2026  
 **Instructor:** Isaac Overcast (isaac.overcast@maine.edu, he/him)  
 **Format:** Seminar plus applied computational lab  
-**Location:** Online synchronous
-* In-person Location (optional): 202 Deering Hall is reserved for students who wish to may meet in person during class time
+**Location:** Online synchronous  
+* In-person Location (optional): 202 Deering Hall is reserved for students who wish to may meet in person during class time  
 **Day/Time:** Fridays 10:00-12:50AM (Eastern)  
 **Prerequisites:** Prior coursework in ecology, evolution, biogeography, GIS, statistics, or permission of instructor. Some programming experience in R or Python is recommended.  
 **Credits:** 3  
