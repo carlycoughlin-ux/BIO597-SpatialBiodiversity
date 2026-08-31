@@ -1,5 +1,9 @@
 # Week 3: Vector Spatial Analysis
 
+### 
+[Emerging Frontiers Symposium: AI, Genomics & Community Science in Biogeography](https://sps.columbia.edu/events/emerging-frontiers-symposium-ai-genomics-community-science-biogeography?program_id=15373)  
+8am-3pm 9/18 online option
+
 ## Core Questions
 
 - How can vector operations answer ecological and conservation questions?

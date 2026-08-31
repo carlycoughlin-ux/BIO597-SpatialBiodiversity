@@ -1,8 +1,7 @@
 # Schedule
 
-This 15-week outline is organized around a final project in which each student develops a reproducible spatial biodiversity analysis using Python.
 
-| Week | Topic | Main Python Tools | Example Exercise |
+| Week | Topic | Main Python Tools | Exercises |
 | --- | --- | --- | --- |
 | [Week 1 (09/04)](week-01.md) | Spatial thinking in biodiversity science | NumPy, pandas, GeoPandas, matplotlib | Map a biodiversity dataset |
 | [Week 2 (09/11)](week-02.md) | Coordinate systems and spatial geometry | GeoPandas, pyproj, Shapely | Reproject data and measure distances |

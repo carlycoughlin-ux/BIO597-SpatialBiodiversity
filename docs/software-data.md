@@ -2,17 +2,10 @@
 
 ## Recommended Computing Environment
 
-Choose either R or Python for the main workflow, but all analyses should be reproducible from scripts, notebooks, or a documented pipeline.
+All coursework will be completed using jupyter notebooks running on an
+external HPC system. 
 
-### R Packages
-
-- `sf` for vector spatial data.
-- `terra` or `stars` for raster data.
-- `dplyr`, `tidyr`, and `ggplot2` for data wrangling and plotting.
-- `targets` or `renv` for reproducibility.
-- SDM and biodiversity packages selected as needed for course exercises.
-
-### Python Packages
+### Python Packages we will use in this course
 
 - `geopandas` for vector spatial data.
 - `rasterio`, `rioxarray`, and `xarray` for raster data.
@@ -20,7 +13,7 @@ Choose either R or Python for the main workflow, but all analyses should be repr
 - `matplotlib`, `seaborn`, or `plotnine` for figures.
 - `conda`, `mamba`, `uv`, or `venv` for environment management.
 
-## Candidate Data Sources
+## Spatial Biodiversity Data Sources
 
 - GBIF occurrence records.
 - iNaturalist research-grade observations.
@@ -30,10 +23,3 @@ Choose either R or Python for the main workflow, but all analyses should be repr
 - Soil, terrain, hydrology, land cover, and protected area datasets.
 - OpenTree, VertLife, Fish Tree of Life, or clade-specific phylogenies.
 - TRY, BIEN, GIFT, or other trait and range databases.
-
-## Data Management Expectations
-
-- Keep raw data separate from processed data.
-- Record download dates, licenses, citations, and filtering decisions.
-- Use relative paths inside project folders.
-- Never manually edit raw data files without documenting the change.

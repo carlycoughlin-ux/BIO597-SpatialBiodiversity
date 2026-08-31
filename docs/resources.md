@@ -1,12 +1,13 @@
 # Resources
 
+## Open Python Data Science Textbooks
+* [Introduction to Python for Geographic Data Analysis](https://pythongis.org/index.html) - Basics of Python programming and geographic data analysis
+* [Geographic Data Science with Python](https://geographicdata.science/book/) - Intermediate-level python geographic data science text
+* [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/) - Good intro to numpy, pandas, matplotlib, and scikit-learn
+
 ## Documentation
 
-- [Zensical documentation](https://zensical.org/docs/)
-- [GitHub Pages documentation](https://docs.github.com/pages)
 - [GBIF API and download documentation](https://techdocs.gbif.org/en/)
-- [sf package documentation](https://r-spatial.github.io/sf/)
-- [terra package documentation](https://rspatial.github.io/terra/)
 - [GeoPandas documentation](https://geopandas.org/)
 - [rasterio documentation](https://rasterio.readthedocs.io/)
 
@@ -19,10 +20,3 @@
 - Phylogenetic and functional diversity.
 - Connectivity modeling and conservation prioritization.
 
-## Course Logistics to Add
-
-- Office hours.
-- Communication channels.
-- Assignment submission details.
-- Recommended citation practices.
-- Institution-specific academic and accessibility policies.
