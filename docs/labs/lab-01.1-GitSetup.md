@@ -12,10 +12,6 @@ $ git config --global user.email "isaac.overcast@gmail.com"
 $ git config --global core.editor "nano -w"
 ```
 
-### Set the default branch for pulling from remotes
-
-`git config remote.upstream.pull main`
-
 ## Set up ssh keys to make github access easier
 
 For this we will follow the excellent directions for
