@@ -13,10 +13,9 @@
 
 ## Reference Topics to Add
 
-- Species distribution modeling.
 - Spatial cross-validation.
 - Biodiversity metrics and endemism.
 - Remote sensing for biodiversity.
 - Phylogenetic and functional diversity.
 - Connectivity modeling and conservation prioritization.
-
+- Bioregionalization: [Infomap](https://mapequation.org/bioregions/)

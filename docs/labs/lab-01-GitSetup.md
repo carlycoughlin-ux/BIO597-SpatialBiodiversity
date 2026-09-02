@@ -1,5 +1,46 @@
+# Lab01 - Intro to git and setting up a repo
 
-## Setting up GitHub fork of Class repo
+## Basic git configuration
+
+### Global git username/email
+```bash
+$ git config --global user.name "Isaac Overcast"
+$ git config --global user.email "isaac.overcast@gmail.com"
+```
+
+### Set the default editor
+
+```bash
+$ git config --global core.editor "nano -w"
+```
+
+??? info "Setting other default editors"
+
+    You can set many other different editors besides nano, if you
+    have a preference. See the [SW Carpentries Git Setup page](https://swcarpentry.github.io/git-novice/02-setup.html)
+    for detailed tips.
+
+## Create/Install SSH Keys
+
+Set up ssh keys to make github access easier
+
+For this we will follow the excellent directions for
+[Creating an SSH key pair](https://swcarpentry.github.io/git-novice/07-github.html#create-an-ssh-key-pair)
+on the Software Carpentries lesson.
+
+If everything in this lesson went well you should be able to type:
+```
+$ ssh -T git@github.com
+```
+Type `yes` when asked to verify the fingerprint, and if the ssh key
+is set up correctly you will see the authentication verification message:
+```
+Hi isaacovercast! You've successfully authenticated, but GitHub does not provide shell access.
+```
+
+## Fork/clone the class repo
+
+### Creating a fork w/ Github.com
 
 * Insure you are logged in to GitHub
 * Go to the lab site github repo: [https://github.com/isaacovercast/BIO597-SpatialBiodiversity](https://github.com/isaacovercast/BIO597-SpatialBiodiversity)
@@ -9,7 +50,8 @@
 * Click the green "Code" button and under the clone section choose "SSH", then copy this URL
 (it should look like this `git@github.com:<your_username>/BIO597-SpatialBiodiversity.git`
 
-### Copy your forked repo into your cloudbank environment
+### Clone the fork locally
+Copy your forked repo into your cloudbank environment
 * Go to the [UMaine CloudBank Login Page](https://maine.cloudbank.2i2c.cloud/)
 * Use the Launcher (the big blue plus button) to open a new Terminal
 * Make sure you are in your home directory by typing `cd` and then `pwd` to verify. Your directory should be `/home/jovyan`. ('jovyan' is the default username inside a jupyterhub instance).
@@ -102,7 +144,8 @@ To github.com:iao2122/BIO597-SpatialBiodiversity.git
    550f16c..46e95f0  main -> main
 ```
 
-### Set a git alias to make pulling from upstream easier
+### Reduce complexity w/ a command shortcut
+Set a git alias to make pulling from upstream easier
 Because there are potentially confusing consequences for running
 `git pull upstream` (without specifying `main` at the end) it will
 be easier for us to set a git "alias" so we can type less and have

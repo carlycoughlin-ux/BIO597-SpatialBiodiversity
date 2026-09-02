@@ -28,10 +28,21 @@ nav = [
     {"Week 14 (12/11)" = "schedule/week-14.md"},
     {"Week 15 (12/18) - Final Presentations" = "schedule/week-15.md"}
   ]},
+  {"Labs" = [
+    {"Week 1 (09/04)" = [
+        {"Git Setup" = "labs/lab-01-GitSetup.md"},
+        {"Geopandas Intro" = "labs/lab-01-Intro_Git_Geopandas.md"},
+    ]},
+  ]},
   {"Assignments" = "assignments.md"},
   {"Software and Data" = "software-data.md"},
   {"Resources" = "resources.md"}
 ]
+
+[project.markdown_extensions]
+admonition = {}
+pymdownx.details = {}
+pymdownx.superfences = {}
 
 [project.theme]
 variant = "modern"
@@ -56,3 +67,17 @@ primary = "green"
 accent = "teal"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to light mode"
+
+[project.theme.icon.admonition]
+note = "octicons/tag-16"
+abstract = "octicons/checklist-16"
+info = "octicons/info-16"
+tip = "octicons/squirrel-16"
+success = "octicons/check-16"
+question = "octicons/question-16"
+warning = "octicons/alert-16"
+failure = "octicons/x-circle-16"
+danger = "octicons/zap-16"
+bug = "octicons/bug-16"
+example = "octicons/beaker-16"
+quote = "octicons/quote-16"
