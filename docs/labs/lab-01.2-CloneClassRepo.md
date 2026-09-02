@@ -38,7 +38,9 @@ changes?
 
 [Isaac makes a small change and pushes it to his repository]
 
-
+Now go back to your browser tab for your own github repo and refresh. You 
+should see a new info box that says "This branch is 1 commit behind...", which
+indicates that your copy of the repo is missing changes that I have made.
 
 Git remotes
 ```bash
@@ -65,4 +67,59 @@ upstream        https://github.com/isaacovercast/BIO597-SpatialBiodiversity (fet
 upstream        https://github.com/isaacovercast/BIO597-SpatialBiodiversity (push)
 ```
 
+Now you can pull down the changes to your local repo with:
+```
+git pull upstream main
+```
+```
+From https://github.com/isaacovercast/BIO597-SpatialBiodiversity
+ * branch            main       -> FETCH_HEAD
+Updating 9e508b2..46e95f0
+Fast-forward
+ docs/labs/lab-01.2-CloneClassRepo.md | 48 ++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 48 insertions(+)
+```
+
+```
+git status
+```
+
+```
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+```
+
+It's good practice to then synch these changes back to your own personal github
+repo, and you can see in the status message that git is encouraging you to do this.
+
+```
+git push
+```
+```
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:iao2122/BIO597-SpatialBiodiversity.git
+   550f16c..46e95f0  main -> main
+```
+
+### Set a git alias to make pulling from upstream easier
+Because there are potentially confusing consequences for running
+`git pull upstream` (without specifying `main` at the end) it will
+be easier for us to set a git "alias" so we can type less and have
+a guaranteed outcome.
+
+```
+git config --global alias.upstream 'pull upstream main'
+```
+
+[Isaac makes another small change and pushes to the original repository]
+
+Now synch everything with two simple commands:
+```
+git upstream
+git push
+```
+
+And if you go back to your github repo web page you should see it report
+"This branch is up to date with `isaacovercast/BIO597-SpatialBiodiversity:main`".
 
