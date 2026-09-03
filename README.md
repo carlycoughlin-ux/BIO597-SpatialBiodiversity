@@ -24,3 +24,4 @@ zensical build --clean
 GitHub Pages is configured through `.github/workflows/docs.yml`. In the repository settings on GitHub, set Pages to publish with GitHub Actions. Pushes to `main` will then build and deploy the site to:
 
 https://isaacovercast.github.io/BIO597-SpatialBiodiversity/
+
