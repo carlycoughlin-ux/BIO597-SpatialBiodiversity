@@ -31,7 +31,7 @@ nav = [
   {"Labs" = [
     {"Week 1 (09/04)" = [
         {"Git Setup" = "labs/lab-01-GitSetup.md"},
-        {"Geopandas Intro" = "labs/lab-01-Intro_Git_Geopandas.md"},
+        {"Geopandas Intro" = "labs/Lab01-IntroPython-Geopandas.ipynb"},
     ]},
   ]},
   {"Assignments" = "assignments.md"},
