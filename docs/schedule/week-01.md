@@ -1,7 +1,8 @@
-# Week 1: Spatial Thinking in Biodiversity Science
+# Week 1: Orientation, connecting to HPC, setting up git, and intro to geopandas
 
 ## Introductory Business
 
+- Icebreaker Question: Which biome do you think you'd thrive in?
 - Review syllabus
 - Let's generate an acceptable use of AI policy for ourselves.
 
@@ -9,30 +10,25 @@
 
 - Why does geography matter in ecology and evolution?
 - How do spatial scale, extent, and grain shape biodiversity inference?
-- What is the difference between spatial and non-spatial data?
-- What does a reproducible spatial biodiversity workflow require?
+- How can we generate hypotheses about spatial patterns of biodiversity?
+- How can we create reproducible spatial biodiversity workflows?
 
-## Concepts
+## Python Tools for today
 
-- Spatial scales and extent.
-- Spatial grain versus extent.
-- Point, polygon, and raster representations.
-- Geographic coordinates.
-- Spatial versus non-spatial data.
-- Reproducible computational workflows.
-
-## Python Tools
-
-- Jupyter.
-- NumPy.
-- pandas.
-- GeoPandas.
-- matplotlib.
+- Jupyter
+- pandas
+- GeoPandas
 
 ## Applied Lab
 
-Start with a simple dataset containing species, latitude, longitude, elevation, and site. Students create a basic map, species-specific maps, sampling-density maps, histograms of latitude and elevation, and a species-by-site matrix.
+Brief intro to jupyter notebooks, python, and the geopandas package. Start with 
+a few simple dataset containing species, latitude, longitude. Create a occurrence 
+record maps per species, merge two species geodataframes, and calculate convex hulls.
 
-## Deliverable
+The goal of this lab is to just get the feel for working in jupyter notebooks with
+python geospatial libraries.
 
-Submit a reproducible notebook with the first biodiversity maps and a short project idea memo identifying a candidate study system, spatial question, response data, and possible environmental predictors.
+## Assignment
+
+Submit a reproducible notebook which demonstrates reinforcement of several concepts
+from the lab assignment.
