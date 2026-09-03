@@ -152,7 +152,7 @@ be easier for us to set a git "alias" so we can type less and have
 a guaranteed outcome.
 
 ```
-git config --global alias.upstream 'pull upstream main'
+git config --global alias.upstream 'pull --no-edit upstream main'
 ```
 
 [Isaac makes another small change and pushes to the original repository]
