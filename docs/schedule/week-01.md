@@ -11,6 +11,7 @@
 
 - Review syllabus
 - Let's generate an acceptable use of AI policy for ourselves.
+- R vs python discussion and horserace
 
 ## Core Questions
 
