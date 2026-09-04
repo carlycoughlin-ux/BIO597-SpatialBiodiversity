@@ -12,7 +12,7 @@ nav = [
   {"Syllabus" = "syllabus.md"},
   {"Schedule" = [
     {"Overview" = "schedule/index.md"},
-    {"Week 1 (09/04)" = "schedule/week-01.md"},
+    {"Week 1 (09/04) - Intro & Geopandas" = "schedule/week-01.md"},
     {"Week 2 (09/11)" = "schedule/week-02.md"},
     {"Week 3 (09/18)" = "schedule/week-03.md"},
     {"Week 4 (09/25)" = "schedule/week-04.md"},
@@ -29,12 +29,16 @@ nav = [
     {"Week 15 (12/18) - Final Presentations" = "schedule/week-15.md"}
   ]},
   {"Labs" = [
-    {"Week 1 (09/04)" = [
+    {"Week 1 (09/04) - Intro & Geopandas" = [
         {"Git Setup" = "labs/lab-01-GitSetup.md"},
         {"Geopandas Intro" = "labs/Lab01-IntroPython-Geopandas.ipynb"},
     ]},
   ]},
-  {"Assignments" = "assignments.md"},
+  {"Assignments" = [
+    {"Overview" = "assignments/index.md"},
+    {"Week 1 (09/04) - Geopandas" = "assignments/Assignment-01-Geopandas.ipynb"},
+    {"Week 2 (09/11) - Shape files" = "assignments/Assignment-02-ShapeFiles.ipynb"},
+  ]},
   {"Software and Data" = "software-data.md"},
   {"Resources" = "resources.md"}
 ]
