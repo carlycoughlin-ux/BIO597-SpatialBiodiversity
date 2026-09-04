@@ -2,7 +2,13 @@
 
 ## Introductory Business
 
-- Icebreaker Question: Which biome do you think you'd thrive in?
+- Icebreaker Questions:
+
+    * Name
+    * Preferred pronouns
+    * Study system
+    * Which biome do you think you'd thrive in?
+
 - Review syllabus
 - Let's generate an acceptable use of AI policy for ourselves.
 

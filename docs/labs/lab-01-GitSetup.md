@@ -1,6 +1,24 @@
 # Lab01 - Intro to git and setting up a repo
 
+## Access your CloudBank Jupyter lab instance
+
+For this course you will not need to install anything on your laptop, as we will be doing all coursework through a cloud-based jupyter lab environment provided by CloudBank (which is an NSF funded program operated by UCSD, UWashington, and UBerkeley). You will have access to a cloudbank classroom instance which I have set up, and you will authenticate to this using your umaine account. If you wish, you can click the link below to check out the environment we will be using (not required to do this before class if you don't want).
+
+* [UMaine CloudBank Classroom](https://maine.cloudbank.2i2c.cloud/)
+
+## Orienting to the JupyterLab interface
+
+## Open a new Terminal
+
+You can open a new terminal from the launcher window (which is the defualt main panel view) or
+alternatively (in the future) you can open the launcher with the big blue plus button in the
+upper left hand corner.
+
 ## Basic git configuration
+
+We are going to use `git` to clone our own copies of the class repo for accessing
+course materials and also for submitting assignments. We need to do a little bit of
+prep work to get git set up properly first.
 
 ### Global git username/email
 ```bash
