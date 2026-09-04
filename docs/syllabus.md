@@ -7,7 +7,9 @@
 **Instructor:** Isaac Overcast (isaac.overcast@maine.edu, he/him)  
 **Format:** Seminar plus applied computational lab  
 **Location:** Online synchronous  
+
   * **In-person Location (optional):** 202 Deering Hall  
+
 **Day/Time:** Fridays 10:00-12:50AM (Eastern)  
 **Prerequisites:** Prior coursework in ecology, evolution, biogeography, GIS, statistics, or permission of instructor. Some programming experience in R or Python is recommended.  
 **Credits:** 3  
@@ -84,6 +86,7 @@ privately as soon as possible.
 
 **EXERCISE FOR DAY 1:** Generate our own Acceptable Use of AI Policy for the class.
 
+<!--
 This is a previous version I had used, but don't peek at it:  
 Students are not discouraged from using AI tools, such as ChatGPT or similar 
 technologies, to support their learning and assignments. However, the use of 
@@ -103,6 +106,7 @@ By using AI judiciously and critically, you will enhance your ability to
 evaluate the reliability of data and tools, which is a vital skill in data
 science. This statement on the use of generative AI was generated with the
 assistance of ChatGPT.
+-->
 
 **Statement of academic integrity:** Academic dishonesty is a serious offense and will not
 be tolerated in the class. Students are expected to reference sources appropriately in
