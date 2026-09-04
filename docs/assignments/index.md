@@ -4,13 +4,26 @@
 
 Weekly exercises should be submitted as reproducible notebooks or scripts with rendered figures and brief interpretation. Each exercise should include enough metadata for another student to understand the data sources, preprocessing choices, and computational environment.
 
-## Reading Responses
+## Paper Discussions
 
-Reading responses should identify the central question, the spatial data or model used, one strength, one limitation, and one discussion question.
+Throughout the semester each participant will choose one paper that
+deals with spatial biodiversity patterns and they will lead a paper
+discussion for the class. The discussion leader should identify the 
+central question, the spatial data or model used, the strengths and
+limitation of the data/models, and one discussion question or future
+direction idea.
 
 ## Final Project
 
-The final project asks students to complete a spatial biodiversity analysis from question to communication. Projects may focus on species distributions, biodiversity metrics, endemism, phylogenetic or functional diversity, connectivity, prioritization, or another approved topic.
+The final project asks students to complete a spatial biodiversity analysis from 
+question to communication. Projects may focus on species distributions, 
+biodiversity metrics, endemism, phylogenetic or functional diversity, 
+connectivity, prioritization, or another approved topic.
+
+I envision the 'final project' as being an opportunity for each participant
+to actually work on data associated with one of their projects. The goal
+would be to wrap up the semester with a more or less complete suite of
+analyses, and potentially a draft methods/results section for a paper.
 
 ### Milestones
 
@@ -23,9 +36,10 @@ The final project asks students to complete a spatial biodiversity analysis from
 
 ## Final Project Structure
 - A GitHub repository with notebooks containing analysis code
-- One clean Jupyter notebook
-- A 10-minute presentation
+- Jupyter notebooks sufficient to reproduce the analyses
 - A README explaining how to reproduce the analysis
+- Publication quality figures and a draft methods/results section of a paper
+- A 10-minute presentation
 
 ## Final Presentation Template
 

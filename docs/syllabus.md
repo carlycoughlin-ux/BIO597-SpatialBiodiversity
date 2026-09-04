@@ -20,12 +20,18 @@
 An advanced survey of tools for modeling and analysis of spatial patterns of biodiversity, including species distributions, biodiversity metrics, endemism, phylogenetic diversity, and landscape connectivity. The course emphasizes environmental drivers, including remote sensing and microclimate data, within predictive frameworks such as species distribution models and machine learning models.
 
 ## Organization
-Each meeting will be a mix of lecture, in-class "active" learning, and group 
-activities. In addition a lot of work is assigned outside of class, including 
+Each meeting will be a mix of lecture, in-class hands-on coding activities, and paper 
+discussions. In addition a lot of work is assigned outside of class, including 
 assignments, reading, and watching video tutorials. An example session would 
 include a lecture to introduce a general concept with examples from biological 
 research, followed by a group active-learning exercise in which students 
 implement the method applied to real datasets.
+
+The general structure of a class period will be something like this:
+
+* 1hr paper discussion
+* 1hr lecture/student presentations
+* 1hr hands-on coding activity
 
 ## Learning Outcomes
 
