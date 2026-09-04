@@ -20,3 +20,5 @@ The course emphasizes reproducible analysis, spatial ecological reasoning, and p
 - [Assignments](assignments.md): assignment templates and project milestones.
 - [Software and Data](software-data.md): computing environment, packages, and data sources.
 - [Resources](resources.md): references, tutorials, and useful documentation.
+
+Hi!
