@@ -92,6 +92,8 @@ privately as soon as possible.
 
 **EXERCISE FOR DAY 1:** Generate our own Acceptable Use of AI Policy for the class.
 
+[BIO597 AI Policy Draft](https://docs.google.com/document/d/1hunGyympBXhv7d4b5sPdtQB5R_7IbkeI2NbIOMHbXJ4/edit?tab=t.0)
+
 <!--
 This is a previous version I had used, but don't peek at it:  
 Students are not discouraged from using AI tools, such as ChatGPT or similar 
