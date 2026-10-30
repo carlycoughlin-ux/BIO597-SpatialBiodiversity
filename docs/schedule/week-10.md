@@ -1,5 +1,9 @@
 # Week 10: Measuring Spatial Biodiversity Patterns
 
+## Paper discussion
+
+- This week Lis will lead the discussion of Staehr et al. 2026 [High-resolution species distribution modelling to guide eelgrass (Zostera marina) management](https://www.sciencedirect.com/science/article/pii/S0272771426002295).
+
 ## Core Questions
 
 - What do richness, Shannon diversity, Simpson diversity, endemism, and rarity measure?

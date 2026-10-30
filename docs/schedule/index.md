@@ -16,7 +16,7 @@ hide:
 | [Week 6 (10/09)](week-06.md) | Species distribution modeling from first principles | rasterio, xarray, geopandas | Build a first SDM from scratch by hand |
 | [Week 7 (10/16)](week-07.md) | Species distribution modeling (Random Forest) | scikit-learn, rasterio, pandas | Build a first SDM from scratch w/ ML |
 | [Week 8 (10/23)](week-08.md) | Exploring SDM software | Running 'production grade' SDMs | Build and compare distribution models |
-| [Week 9 (10/30)](week-09.md) | SDM predictions in space and time | | Projecting a fitted SDM to future climate conditions |
+| [Week 9 (10/30)](week-09.md) | Gradient Forest: SDMs for genomic data | pyGF | Perform an SDM-like analysis with SNP to estimate environmental correlates of genetic turnover |
 | [Week 10 (11/06)](week-10.md) | Measuring Spatial Biodiversity Patterns | numpy, pandas, scipy, scikit-learn | Quantify biodiversity across spatial scales |
 | [Week 11 (11/13)](week-11.md) | Community composition across space | pandas, scipy, scikit-learn, GeoPandas | Analyze beta diversity and distance decay |
 | [Week 12 (11/20)](week-13.md) | Ordination, gradients, and evolutionary diversity | scikit-learn, scipy, matplotlib | Compare geographic, environmental, and diversity spaces |
@@ -25,7 +25,5 @@ hide:
 
 
 ??? note "Course topic scratch pad"
-    Look at [elapid](https://github.com/earth-chris/elapid), a Python SDM package  
-    Add gradient forest somewhere mid-semester  
     [scratch pad](_scratch_pad.md)
 
