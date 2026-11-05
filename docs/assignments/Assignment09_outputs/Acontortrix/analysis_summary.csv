@@ -1,0 +1,2 @@
+species,file_stem,vcf,coordinates,bioclim_directory,n_individuals,n_predictors,n_snps,n_contributing,min_call_rate,min_maf,one_per_contig,max_variants,n_estimators,max_level,random_state
+Agkistrodon contortrix,Acontortrix,/home/jovyan/shared/EasternSnakeGenetics/Acontortrix.vcf,/home/jovyan/shared/EasternSnakeGenetics/Acontortrix_coords.txt,/home/jovyan/shared/bioclim,32,19,256,86,0.8,0.05,True,256,100,2,42
